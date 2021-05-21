@@ -34,7 +34,7 @@ def extract_weather(soup):
     print(date_)
     print(news_)
 
-    upload_contents = date_ + news_
+    upload_contents = date_ + "\n" + news_
 
     return upload_contents
 
