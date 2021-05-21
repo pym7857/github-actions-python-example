@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     url = "http://www.weather.go.kr/w/weather/forecast/short-term.do"
 
-    soup = parsing_beautifulsoup(url, verify=False)
+    soup = parsing_beautifulsoup(url)
     upload_contents = extract_weather(soup)
     
     issue_title = f"기상청 날씨 예보 알림({today_data})"
