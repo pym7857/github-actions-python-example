@@ -27,4 +27,4 @@ jobs:
       run: |
         python main.py
       env:
-        YM_SECRET: \$
+        MY_GITHUB_TOKEN: \$
